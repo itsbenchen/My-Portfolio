@@ -1,2 +1,2 @@
 # My-Portfolio
-To access the website the webite: https://itsbenchen.github.io/
+To access the website: https://itsbenchen.github.io/
