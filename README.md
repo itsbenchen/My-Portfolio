@@ -1,5 +1,5 @@
 # My-Portfolio
 
-This is my first HTML/CSS project.
+Note: Responsive Web Design has been applied to the website.
 
 To access the website: https://itsbenchen.github.io/
