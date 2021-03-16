@@ -1,142 +1,236 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ben Chen's Profile/Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <main>
-      <!-- ***********************  ABOUT / PROFILE  *********************** -->
-      <header>
-        <div class="content-wrap">
-          <h1>Ben Chen</h1>
-          <h2>Software Developer/Engineer</h2>
-
-          <p>I'm a college graduate from the University of California, Irvine with a major in Computer Science. 
-            I work mostly with back-end languages, such as C++ and Java, but I have started learning more about front-end development to expand my skillset.
-          </p>
-
-          <p>Outside of my career and academics, I mostly like to play video games and occasionally watch anime. 
-            I'm a big fan of MOBA games, such as League of Legends. 
-            The highest tier I've gotten in League of Legends is Platinum, which is considered to be the top part of the top 10% of players in the game. 
-            I also occasionally watch anime, but have stopped recently. 
-            Some of my all-time favorite animes are Naruto, Code Geass, Your Name, Your Lie In April, and Full Metal Alchemist.
-          </p>
-
-        </div>
-      </header>
-
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class="projects">
-        <div class="content-wrap divider">
-          <h2>My Projects</h2>
-          <p>Below are some projects that I've done. More information/projects can be found at <a href="https://github.com/itsbenchen" target="_blank" rel="noopener noreferrer">github.com/itsbenchen</a>.</p>
-
-          <!-- Project 1 -->
-          <section class="project-item">
-            <img src="images/dream-bot-RuneScape.png" alt="DreamBot - RuneScape Client"> <!--To allow the content to float on img-->
-            <h3>RuneScape Bot Scripts (DreamBot)</h3>
-            <p>Built scripts in Java that used DreamBot's API to interact and automate tasks in Old-School RuneScape.</p>
-            <a class="button" href="https://github.com/itsbenchen/RuneScape-Dream-Bot-Scripts.git" target="_blank"  rel="noopener noreferrer">View repository (DreamBot scripts)</a>
-          </section>
-
-          <!-- Project 2 -->
-          <section class="project-item">
-            <img src="images/Conways-Game-Of-Life-Console-Program.png" alt="Conway's Game Of Life (written in C)"> <!--To allow the content to float on img-->
-            <h3>Various Game Logics For Classical Games (in C/C++)</h3>
-            <p>Implemented various game logics in C/C++, including Conway's Game Of Life, Blackjack, MineSweeper, and Snake. </p>
-            <a class="button" href="https://github.com/itsbenchen/Conways-Game-Of-Life" target="_blank" rel="noopener noreferrer">View repository (Conway's Game Of Life)</a>
-            <a class="button" href="https://github.com/itsbenchen/Blackjack" target="_blank" rel="noopener noreferrer">View repository (Blackjack)</a>
-            <a class="button" href="https://github.com/itsbenchen/Minesweeper" target="_blank" rel="noopener noreferrer">View repository (Minesweeper)</a>
-          </section>
-
-          <!-- Project 3 -->
-          <section class="project-item">
-            <img src="images/wumpus-world-cave.JPG" alt="Wumpus World Cave"> <!--To allow the content to float on img-->
-            <h3>Wumpus World AI Project</h3>
-            <p>Created an AI using Python for a static, Wumpus World game that scored in the top 90th percentile in my course competition. 
-              The AI adapted with its environment and the best decisions to acheive the best performance score.
-            </p>
-            <a class="button" href="https://github.com/itsbenchen/Wumpus-World-Project.git" target="_blank"  rel="noopener noreferrer">View repository (Wumpus World)</a>
-          </section>
-
-        </div>
-      </section>
-
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class="work-experience">
-        <div class="content-wrap item-details divider">
-          <h2>Work Experience</h2>
-
-          <section class="job-item">
-            <div class="job-details">
-              <h3>Mentor</h3>
-              <p>Women In Computer Science (School Organization)</p>
-              <p>November 2018 - June 2020</p>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben Chen</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="images/browser_icon.png">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navagation-container">
+            <div class="navigation-left">
+                <a href="#" title="Ben Chen">
+                    <h1>Ben Chen</h1>
+                </a>
             </div>
-            <div class="job summary">
-            <p><strong>Responsibilites:</strong></p>
-              <ul>
-                <li>Educate mentees on various resources on campus for major</li>
-                <li>Provide moral support and general guidance on University life</li>
-                <li>Creat and maintaine trusting relationships with my mentees by creating
-                  an environment that supports constructive criticism, openness, and growth</li>
-                <li>Offer tutoring for Computer Science courses in areas that they need help in</li>
-              </ul>
-            </div>
-          </section>
-
-        </div>
-      </section>
-
-      <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section class="education">
-        <div class="content-wrap item-details">
-          <h2>Education</h2>
-
-          <section>
-            <h3>University of California, Irvine - Irvine</h3>
-            <p>B.S. In Computer Science, 2016&nbsp;-2020</p>
-            <br>
-            <p><strong>Courses Taken: </strong></p>
-            <ul>
-                <li>Computer Networks</li>
-                <li>Boolean Logic and Discrete Structures</li>
-                <li>Compilers & Interpreters</li>
-                <li>Concepts in Programming Languages I & II</li>
-                <li>Data Structure Implementation & Analysis</li>
-                <li>Design & Analysis of Algorithmns</li>
-                <li>Formal Languages and Automata</li>
-                <li>Intermediate Programming in Python</li>
-                <li>Introduciton to Artificial Intelligence</li>
-                <li>Introduction to Data Management</li>
-                <li>Introduction to Software Engineering</li>
-                <li>Machine Learning & Data Mining</li>
-                <li>Principles in System Design</li>
-                <li>Principles of Operating System</li>
-                <li>Programming in C/C++</li>
-                <li>Project in Operating Systems</li>
-            </ul>
             
-          </section>
+            <div class="navigation-right"> 
 
-        </div>
-      </section>
+                <div class="navigation-option">
+                    <a href="#about-me">
+                        <h3>About Me</h3>
+                    </a>
+                </div>
 
-      <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-      <footer>
-        <div class="content-wrap">
-          <h2>Contact Info</h2>
-          <ul class="contact-list">
-            <li><a href="mailto:itsbenchen@example.com">itsbenchen@gmail.com</a></li>
-            <li><a href="https://www.linkedin.com/in/itsbenchen/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          </ul>
+                <div class="navigation-option">
+                    <a href="#projects">
+                        <h3>Projects</h3>
+                    </a>
+                </div>
+
+                <div class="navigation-option">
+                    <a href="#education" >
+                        <h3>Education</h3>
+                    </a>
+                </div>
+
+                <div class="navigation-option">
+                    <a href="#contact-info">
+                        <h3>Contact Info</h3>
+                    </a>
+                </div>
+
+            </div>
         </div>
-      </footer>
-    </main>
-  </body>
+
+        <!-- Main Header -->
+        <div class="header-container" style="background-image: url(./images/anime-room-background.gif)">
+            <div id="calendar-date" onload="showFullDate()"></div>
+            <div id="clock" onload="showFullTime()"></div>
+            <div class="typewriter">
+                <h1>Welcome to my Portfolio</h1>
+            </div>
+        </div>
+
+        <!-- Content Container -->
+        <div class="content-container">
+            <!-- About Me -->
+            <div id="about-me"></div>
+            <div id="about-me-container">
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">About Me</h2>
+                        <p class="card-info">
+                            My name is Ben, and I graduated from University of California, Irvine with a Bachelor of Science in Computer Science.
+                            I'm an open-minded, detail-oriented, and versatile individual who enjoys working and using technology to solve real-world problems.
+                            I like to think I'm a persistent and passionate person. My career, as a software developer/engineer, has allowed me to embrace these traits
+                            and to work with other like-minded individuals in creating the things we love.
+                        </p>
+        
+                        <p class="card-info">
+                            Outside of my academics and career, I enjoy playing video games, especially games with multiplayer features or a story-oriented gameplay. 
+                            I've played games from multiple genres, but I typically find myself enjoying MMORPGs/RPGs and RTS (real-time strategy) games.
+                            I also enjoy watching movies and anime. I don't really have a set genre of movies that I like, but so far, I've really enjoyed watching action movies, such
+                            as ones from Marvel. I also like watching Disney movies and musicals. On the anime side, I really like watching slice-of-life, adventure, and romance animes.
+                        </p>  
+                    </div>
+                    <img class="card-image" alt="" src="https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/19800838_1865703693694523_6689390902479550252_o.jpg?_nc_cat=105&ccb=1-3&_nc_sid=174925&_nc_ohc=Jcfl3EEnmQYAX_hEmmV&_nc_ht=scontent-sjc3-1.xx&oh=a9ebc8325e460c101075825e7a414c51&oe=60734DEB" />
+                </div>
+            </div>
+            
+            <!-- Projects -->
+            <div id="projects"></div>
+            <div id="projects-container">
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">Project: Facebook Clone</h2>
+                        <p class="card-info">
+                            Built a Facebook clone using ReactJS and Firebase. Created various components of Facebook's UI, including the header, user's sidebar, main feed page, and widget section. 
+                            Comes with full login capability (with Google login), where users can login to post on their feed. Users can also see what other users post in real-time, which is a prime
+                            feature of the original Facebook.
+                        </p>
+                        <div class="card-button-container">
+                            <a class="card-button" href="https://facebook-clone-a7e16.web.app/" target="_blank" rel="noopener noreferrer">
+                                View deployed website
+                            </a>
+                            <a class="card-button" href="https://github.com/itsbenchen/facebook-clone" target="_blank" rel="noopener noreferrer">
+                                View respository
+                            </a>
+                        </div>
+                        <img alt="" src="./images/facebook-clone-screenshot.png" />
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-image" alt="" src="./images/dream-bot-RuneScape.png" />
+                    <div class="card-content">
+                        <h2 class="card-title">Project: RuneScape Bot Scripts</h2>
+                        <p class="card-info">
+                            Designed and built robust scripts in Java using DreamBot's API and client for the botting community in Old School RuneScape. Scripts were designed to automate tasks
+                            and/or leveling, which allowed players to progress much faster. Worked with other community members in delivering a variety of scripts suited for their needs.
+                            Ensured scripts were well-designed and implemented, such that it would scale if needed and reduce chances of getting caught by an anti-bot catcher. 
+                        </p>
+                        <div class="card-button-container">
+                            <a class="card-button" href="https://github.com/itsbenchen/RuneScape-Dream-Bot-Scripts.git" target="_blank"  rel="noopener noreferrer">
+                                View repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">Project: Wumpus World</h2>
+                        <p class="card-info">
+                            Made an AI using Python for the Wumpus World game that traversed the game environment (cave) with a goal of finding gold and exiting the cave successfully. 
+                            Designed the AI in a way such that it adapted with its environment and chose the best decision depending on the knowledge it gathered to achieve the best
+                            possible performance. At the end of the project, the AI scored in the top 90th percentile in my course competition.
+                        </p>
+                        <div class="card-button-container">
+                            <a class="card-button" href="https://github.com/itsbenchen/Wumpus-World-Project.git" target="_blank"  rel="noopener noreferrer">
+                                View repository
+                            </a>
+                        </div>
+                    </div>
+                    <img class="card-image" alt="" src="./images/artificial-intelligence-education.jpg" />
+                </div>
+
+                <div class="card">
+                    <img class="card-image" alt="" src="./images/Conways-Game-Of-Life-Console-Program.png" />
+                    <div class="card-content">
+                        <h2 class="card-title">Project: Console-based Games</h2>
+                        <p class="card-info">
+                            Implemented various games in C/C++, such as Conway's Game of Life, Blackjack, and Minesweeper. These games were lab projects done in my ICS 51 lab course,
+                            where I was given 2 hours to fully implement and demo the game. The purpose of these projects were to test our programming skills against the time, and to see
+                            if we can implement real-life applications/software.
+                        </p>
+                        <div class="card-button-container">
+                            <a class="card-button" href="https://github.com/itsbenchen/Conways-Game-Of-Life" target="_blank" rel="noopener noreferrer">
+                                View repository (Conway's Game Of Life)
+                            </a>
+                            <a class="card-button" href="https://github.com/itsbenchen/Blackjack" target="_blank" rel="noopener noreferrer">
+                                View repository (Blackjack)
+                            </a>
+                            <a class="card-button" href="https://github.com/itsbenchen/Minesweeper" target="_blank" rel="noopener noreferrer">
+                                View repository (Minesweeper)
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div id="education"></div>
+            <div id="education-container">
+                <div class="card">
+                    <div class="card-content">
+                        <h2 class="card-title">Education</h2>
+                        <section>
+                            <h3>University of California, Irvine - Irvine</h3>
+                                <p>B.S. in Computer Science, 2016&nbsp;-2020</p>
+                                <br>
+                                <p><strong>Courses Taken: </strong></p>
+                                <ul>
+                                    <li>Computer Networks</li>
+                                    <li>Boolean Logic and Discrete Structures</li>
+                                    <li>Compilers & Interpreters</li>
+                                    <li>Concepts in Programming Languages I & II</li>
+                                    <li>Data Structure Implementation & Analysis</li>
+                                    <li>Design & Analysis of Algorithmns</li>
+                                    <li>Formal Languages and Automata</li>
+                                    <li>Intermediate Programming in Python</li>
+                                    <li>Introduciton to Artificial Intelligence</li>
+                                    <li>Introduction to Data Management</li>
+                                    <li>Introduction to Software Engineering</li>
+                                    <li>Machine Learning & Data Mining</li>
+                                    <li>Principles in System Design</li>
+                                    <li>Principles of Operating System</li>
+                                    <li>Programming in C/C++</li>
+                                    <li>Project in Operating Systems</li>
+                                </ul>
+                        </section>
+                    </div>
+                    <img src="https://www.usnews.com/dims4/USNEWS/edee8e6/17177859217/resize/800x540%3E/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2F1f%2F32422d0e6bda3b29d450a49f833994%2FALP_181106_0076_sz.jpg"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="contact-info"></div>
+        <footer id="contact-info-container">
+            <h1>Contact Info</h1>
+            <div class="footer-options">
+                <span class="footer-option">
+                    <a href="mailto:itsbenchen@example.com" title="itsbenchen@gmail.com">
+                        <h3>Email</h3>
+                        <img class="option-icon icon-invert" src="./images/mail-icon.svg" alt=""/>
+                    </a>
+                </span>
+                <span class="footer-option">
+                    <a href="https://github.com/itsbenchen" title="https://github.com/itsbenchen" target="_blank" rel="noopener noreferrer">
+                        <h3>GitHub</h3>
+                        <img class="option-icon icon-invert" src="./images/github-icon.svg" alt=""/>
+                    </a>
+                </span>
+                <span class="footer-option">
+                    <a href="https://www.linkedin.com/in/itsbenchen/" title="https://www.linkedin.com/in/itsbenchen/" target="_blank" rel="noopener noreferrer">
+                        <h3>LinkedIn</h3>
+                        <img class="option-icon" src="./images/linkedin-icon.svg" alt=""/>
+                    </a>
+                </span>
+            </div>
+            
+        </footer>
+
+        <!-- Scripts -->
+        <script src="./js/calendar.js"></script>
+        <script src="./js/time.js"></script> 
+    </body>
+    
+
 </html>
