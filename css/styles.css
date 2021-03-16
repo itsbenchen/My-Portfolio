@@ -155,15 +155,16 @@ a:link, a:visited, a:active, a:hover {
     text-align: center;
 }
 
+#avatar > * {
+    text-align: center;
+    margin: 0;
+}
+
 #avatar > img {
     border-radius: 999px;
     display: block;
     margin: 0 auto;
-}
-
-#avatar > * {
-    text-align: center;
-    margin: 0;
+    width: 50;
 }
 
 .avatar-option > a {
