@@ -128,9 +128,48 @@ a:link, a:visited, a:active, a:hover {
 
 /* Content Container */
 .content-container {
-    max-width: 1200px;
+    display: flex;
+    max-width: 1400px;
     min-height: 1000px;
     margin: 50px auto;
+}
+
+/* Main container  */
+.main-container {
+    display: block;
+    max-width: 1000px;
+}
+
+/* Side container */
+.side-container {
+    display: block;
+    width: 400px;
+    margin: 0 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 60px;
+    height: fit-content;
+}
+
+.side-container .card-title {
+    text-align: center;
+}
+
+#avatar > img {
+    border-radius: 999px;
+}
+
+#avatar > * {
+    text-align: center;
+    margin: 0;
+}
+
+.avatar-option > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
 }
 
 /* Card */
@@ -151,6 +190,11 @@ a:link, a:visited, a:active, a:hover {
 
 .card-button-container {
     display: flex;
+}
+
+.card-title {
+    padding-bottom: 2px;
+    border-bottom: 1px solid gray;
 }
 
 .card-button {
@@ -174,6 +218,7 @@ a:link, a:visited, a:active, a:hover {
     padding: 20px;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .card-content > * {
@@ -187,7 +232,7 @@ a:link, a:visited, a:active, a:hover {
 }
 
 .card-image {
-    max-width: 40%;
+    max-width: 45%;
     max-height: 100%;
     object-fit: cover;
 }
@@ -196,8 +241,8 @@ a:link, a:visited, a:active, a:hover {
 
 /* Education */
 
-#education img {
-    max-width: 60%;
+#education-container img {
+    max-width: 50%;
     max-height: 100%;
     margin: 0 0 0 auto;
     object-fit: cover;
