@@ -23,7 +23,7 @@ a:link, a:visited, a:active, a:hover {
 
 /* Anchors for IDs */
 
-#about-me, #projects, #education, #contact-us {
+#about-me, #projects, #education, #contact-info {
     display: block;
     height: 70px;
     margin-top: -70px;
@@ -164,7 +164,8 @@ a:link, a:visited, a:active, a:hover {
     border-radius: 999px;
     display: block;
     margin: 0 auto;
-    width: 50;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 .avatar-option > a {
@@ -201,14 +202,15 @@ a:link, a:visited, a:active, a:hover {
 }
 
 .card-button {
+    color: black;
     background-color: lightskyblue;
     border-radius: 10px;
-    color: white;
     font-weight: bold;
     padding: 10px;
     margin-right: 10px;
     text-decoration: none;
     text-align: center;
+    justify-content: center;
 }
 
 .card-button:hover {
